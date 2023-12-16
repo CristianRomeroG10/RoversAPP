@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		109005E62B2177C20008AB2C /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109005E52B2177C20008AB2C /* PhotoInfo.swift */; };
 		10EEC5C62B1E6585005EA055 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEC5C52B1E6585005EA055 /* AppDelegate.swift */; };
 		10EEC5C82B1E6585005EA055 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEC5C72B1E6585005EA055 /* SceneDelegate.swift */; };
-		10EEC5CA2B1E6585005EA055 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEC5C92B1E6585005EA055 /* ViewController.swift */; };
-		10EEC5CD2B1E6585005EA055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10EEC5CB2B1E6585005EA055 /* Main.storyboard */; };
 		10EEC5CF2B1E6586005EA055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10EEC5CE2B1E6586005EA055 /* Assets.xcassets */; };
 		10EEC5D22B1E6586005EA055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10EEC5D02B1E6586005EA055 /* LaunchScreen.storyboard */; };
+		10EEC5DD2B1E6797005EA055 /* NASATabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEC5DC2B1E6797005EA055 /* NASATabBar.swift */; };
+		10EEC5E02B1E67CF005EA055 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEC5DE2B1E67CF005EA055 /* PhotoViewController.swift */; };
+		10EEC5E12B1E67CF005EA055 /* PhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10EEC5DF2B1E67CF005EA055 /* PhotoViewController.xib */; };
+		10EEC5E42B1E67E4005EA055 /* RoversViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEC5E22B1E67E4005EA055 /* RoversViewController.swift */; };
+		10EEC5E52B1E67E4005EA055 /* RoversViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10EEC5E32B1E67E4005EA055 /* RoversViewController.xib */; };
+		10EEC5E82B1E6C8C005EA055 /* RoversTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEC5E62B1E6C8C005EA055 /* RoversTableViewCell.swift */; };
+		10EEC5E92B1E6C8C005EA055 /* RoversTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10EEC5E72B1E6C8C005EA055 /* RoversTableViewCell.xib */; };
+		10EEC5EB2B1E70BE005EA055 /* PhotoRover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EEC5EA2B1E70BE005EA055 /* PhotoRover.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		109005E52B2177C20008AB2C /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
 		10EEC5C22B1E6585005EA055 /* ROVERNASAAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROVERNASAAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10EEC5C52B1E6585005EA055 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10EEC5C72B1E6585005EA055 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		10EEC5C92B1E6585005EA055 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		10EEC5CC2B1E6585005EA055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10EEC5CE2B1E6586005EA055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10EEC5D12B1E6586005EA055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10EEC5D32B1E6586005EA055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10EEC5DC2B1E6797005EA055 /* NASATabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASATabBar.swift; sourceTree = "<group>"; };
+		10EEC5DE2B1E67CF005EA055 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		10EEC5DF2B1E67CF005EA055 /* PhotoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoViewController.xib; sourceTree = "<group>"; };
+		10EEC5E22B1E67E4005EA055 /* RoversViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoversViewController.swift; sourceTree = "<group>"; };
+		10EEC5E32B1E67E4005EA055 /* RoversViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoversViewController.xib; sourceTree = "<group>"; };
+		10EEC5E62B1E6C8C005EA055 /* RoversTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoversTableViewCell.swift; sourceTree = "<group>"; };
+		10EEC5E72B1E6C8C005EA055 /* RoversTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoversTableViewCell.xib; sourceTree = "<group>"; };
+		10EEC5EA2B1E70BE005EA055 /* PhotoRover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRover.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,46 @@
 		10EEC5C42B1E6585005EA055 /* ROVERNASAAPP */ = {
 			isa = PBXGroup;
 			children = (
+				10EEC5DB2B1E6760005EA055 /* TabBar */,
+				10EEC5DA2B1E671E005EA055 /* PhotoView */,
+				10EEC5D92B1E670E005EA055 /* RoverView */,
 				10EEC5C52B1E6585005EA055 /* AppDelegate.swift */,
 				10EEC5C72B1E6585005EA055 /* SceneDelegate.swift */,
-				10EEC5C92B1E6585005EA055 /* ViewController.swift */,
-				10EEC5CB2B1E6585005EA055 /* Main.storyboard */,
 				10EEC5CE2B1E6586005EA055 /* Assets.xcassets */,
 				10EEC5D02B1E6586005EA055 /* LaunchScreen.storyboard */,
 				10EEC5D32B1E6586005EA055 /* Info.plist */,
 			);
 			path = ROVERNASAAPP;
+			sourceTree = "<group>";
+		};
+		10EEC5D92B1E670E005EA055 /* RoverView */ = {
+			isa = PBXGroup;
+			children = (
+				10EEC5E22B1E67E4005EA055 /* RoversViewController.swift */,
+				10EEC5E32B1E67E4005EA055 /* RoversViewController.xib */,
+				10EEC5E62B1E6C8C005EA055 /* RoversTableViewCell.swift */,
+				10EEC5E72B1E6C8C005EA055 /* RoversTableViewCell.xib */,
+				10EEC5EA2B1E70BE005EA055 /* PhotoRover.swift */,
+			);
+			path = RoverView;
+			sourceTree = "<group>";
+		};
+		10EEC5DA2B1E671E005EA055 /* PhotoView */ = {
+			isa = PBXGroup;
+			children = (
+				10EEC5DE2B1E67CF005EA055 /* PhotoViewController.swift */,
+				10EEC5DF2B1E67CF005EA055 /* PhotoViewController.xib */,
+				109005E52B2177C20008AB2C /* PhotoInfo.swift */,
+			);
+			path = PhotoView;
+			sourceTree = "<group>";
+		};
+		10EEC5DB2B1E6760005EA055 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				10EEC5DC2B1E6797005EA055 /* NASATabBar.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +170,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10EEC5E12B1E67CF005EA055 /* PhotoViewController.xib in Resources */,
+				10EEC5E52B1E67E4005EA055 /* RoversViewController.xib in Resources */,
 				10EEC5D22B1E6586005EA055 /* LaunchScreen.storyboard in Resources */,
 				10EEC5CF2B1E6586005EA055 /* Assets.xcassets in Resources */,
-				10EEC5CD2B1E6585005EA055 /* Main.storyboard in Resources */,
+				10EEC5E92B1E6C8C005EA055 /* RoversTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +185,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10EEC5CA2B1E6585005EA055 /* ViewController.swift in Sources */,
+				109005E62B2177C20008AB2C /* PhotoInfo.swift in Sources */,
 				10EEC5C62B1E6585005EA055 /* AppDelegate.swift in Sources */,
+				10EEC5E02B1E67CF005EA055 /* PhotoViewController.swift in Sources */,
+				10EEC5E82B1E6C8C005EA055 /* RoversTableViewCell.swift in Sources */,
+				10EEC5EB2B1E70BE005EA055 /* PhotoRover.swift in Sources */,
+				10EEC5DD2B1E6797005EA055 /* NASATabBar.swift in Sources */,
+				10EEC5E42B1E67E4005EA055 /* RoversViewController.swift in Sources */,
 				10EEC5C82B1E6585005EA055 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +199,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		10EEC5CB2B1E6585005EA055 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				10EEC5CC2B1E6585005EA055 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		10EEC5D02B1E6586005EA055 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +341,6 @@
 				INFOPLIST_FILE = ROVERNASAAPP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +368,6 @@
 				INFOPLIST_FILE = ROVERNASAAPP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
